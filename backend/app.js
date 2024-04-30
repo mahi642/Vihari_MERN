@@ -12,6 +12,12 @@ app.use(express.json())
 // app.use(helmet.crossOriginResourcePolicy({ policy: "cross-origin" }));
 
 app.use(cors());
+app.use(cors({
+  origin:["https://deploy-mern-1whq.vercel.app"],
+  methods:["POST","GET"],
+  credentials:true
+}))
+
 
 const accessLogStream = rfs.createStream("access.log",{
   interval:'1d',
