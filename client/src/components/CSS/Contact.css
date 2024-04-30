@@ -1,0 +1,41 @@
+/* Larger screens */
+.contactUs {
+  position: relative;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 5fr 4fr;
+  grid-template-areas: "form info";
+  grid-gap: 10px;
+  margin-top: 20px;
+  height: 100%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: -400px;
+}
+
+.contactUs h1 {
+  font-size: 2em;
+  color: gray;
+  text-align: center;
+  padding: 2rem;
+  margin-left: -5%;
+  font-weight: 700;
+  
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .contactUs {
+    grid-template-columns: 1fr; /* Adjust the layout for a single column */
+    grid-template-rows: auto; /* Let rows adjust based on content */
+    grid-template-areas: 
+      "form"
+      "info";
+    margin: 20px; /* Adjust margin for smaller screens */
+  }
+
+  .contactUs h1 {
+    margin-left: 0; /* Reset the margin for the title */
+    font-size: 1.5em; /* Adjust the font size for smaller screens */
+  }
+}

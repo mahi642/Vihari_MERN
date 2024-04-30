@@ -1,0 +1,114 @@
+.bus-layout {
+  width: 85%;
+  border: 2px solid grey
+}
+
+
+tbody,
+td,
+tfoot,
+th,
+thead {
+  border: none;
+}
+
+table,
+.table {
+  box-shadow: none;
+}
+
+.table th{
+  font-size: 18px;
+}
+tr.bus-row {
+  box-shadow: -2px -3px 4px rgb(67, 51, 51);
+  font-size: 15px;
+}
+
+ol.seats {
+  list-style: none;
+  justify-content: center;
+  padding: 5px;
+
+}
+
+.seats {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+
+.seat input[type=checkbox] {
+  position: absolute;
+  opacity: 0;
+}
+
+.seat input[type=checkbox]:checked+label {
+
+  animation-name: rubberBand;
+  animation-duration: 300ms;
+  animation-fill-mode: both;
+}
+
+.seat input[type=checkbox]:disabled+label {
+  background: #ddd;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+
+.seat input[type=checkbox]:disabled+label:after {
+  content: "X";
+  text-indent: 0;
+  position: absolute;
+  top: 24px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.seat input[type=checkbox]:disabled+label:hover {
+  box-shadow: none;
+  cursor: not-allowed;
+}
+
+.seat label {
+  display: block;
+  position: relative;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.5rem;
+  padding: 14px 24px;
+  border: 1px solid black;
+  color: black;
+  border-radius: 5px;
+  animation-duration: 300ms;
+  animation-fill-mode: both;
+  margin-left: 5px;
+}
+
+/* .seat label:before {
+    position: absolute;
+    width: 75%;
+    height: 75%;
+    top: 1px;
+    left: 50%;
+    background: rgba(241, 232, 232, 0.4);
+    border-radius: 3px;
+  } */
+
+@keyframes rubberBand {
+  0% {
+    background: white;
+  }
+
+  50% {
+    background: linear-gradient(rgb(211, 203, 203), indigo);
+  }
+
+  100% {
+    background: indigo;
+    color: white;
+  }
+}

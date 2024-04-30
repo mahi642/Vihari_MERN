@@ -1,0 +1,21 @@
+.aboutUs{
+    width: 80%;
+    background-color:#151FAC;
+    margin-left:10%;
+    margin-right:10%;
+    height:6rem;
+    color: white; 
+}
+.aboutUs h1{
+    padding: 0;
+    margin-top: 0;
+    font-size: 2rem;
+    margin-left: 12rem;
+    margin-bottom: 0;
+    font-size: 30px;
+}
+.aboutUs p{
+    margin-left: 12rem;
+    margin-top: 0;
+    font-size: 10px;
+}

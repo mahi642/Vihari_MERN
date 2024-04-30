@@ -1,0 +1,67 @@
+* {
+  font-family: "Nunito", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* text-transform: capitalize; */
+  outline: none;
+  border: none;
+  text-decoration: none;
+  transition: all 0.2s linear;
+  /* font-size:62.5%; */
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 6rem;
+  scroll-behavior: smooth;
+}
+
+.btn1{
+  display: flex;
+  margin-right: 2rem;
+}
+a.nav-link {
+    color: #fff;
+    margin: 0 0.8rem;
+  }
+a.nav-link:hover {
+    color: #06bbcc;
+  }
+a.nav-link.active:hover {
+    color: #06bbcc;
+}  
+
+.navbar-header .navbar a {
+  color: #fff;
+  font-size: 1.5rem;
+  margin: 0 0.8rem;
+}
+
+.navbar-header .navbar a:hover {
+  color: #06bbcc;
+  text-transform: uppercase;
+}
+
+.navbar-header .icon i {
+  font-size: 2.5rem;
+  color: white;
+  cursor: pointer;
+  padding-left: 2.5rem;
+}
+
+.navbar-header .icon i:hover {
+  color: #06bbcc;
+}
+
+.logo{
+  margin-left: 140px;
+}
+.links{
+  display: flex;
+  font-size: 20px;
+}
+.links :link{
+  padding-right: 80px;
+}

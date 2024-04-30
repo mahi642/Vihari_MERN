@@ -1,0 +1,58 @@
+.cancel-save {
+  margin-top: 20px; /* Add margin for spacing */
+}
+
+.cancel-save button {
+  margin: -2rem 10px;
+  background-color: darkgrey; /* Add margin between buttons */
+}
+
+.inp-name {
+  width: 250px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 12px;
+  margin-top: 0px;
+}
+
+.cancel-save {
+  display: flex;
+  /* justify-content: space-around; */
+  margin-top: 70px;
+  margin-left: 220px;
+}
+
+.cancel-save button {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 10px;
+}
+
+.cancel-save button[type="submit"] {
+  background-color: #0077cc;
+}
+
+.cancel-save button[type="submit"]:hover {
+  background-color: #005c99;
+}
+
+
+.inp-name::placeholder {
+  text-align: start;
+}
+
+.nameAndGender label {
+  font-size: 2rem;
+}
+
+.female-radio-btn {
+  margin-left: 1rem;
+}
+.dob1 {
+  color: rgb(137, 132, 132);
+}

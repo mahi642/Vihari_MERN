@@ -1,0 +1,22 @@
+.Profile{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.profile-image img{
+    width: 100px;
+    height: 100px;
+}
+.profile-content{
+    background-color: white;
+    width:70%;
+}
+.profile-content h1{
+    margin-left:2rem;
+    color: #06bbcc;
+}
+.profile-content p{
+    color:black;
+    margin-left: 2rem;
+}

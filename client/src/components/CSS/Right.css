@@ -1,0 +1,51 @@
+.right {
+    padding: 20px;
+    background-color: rgb(160, 216, 225);
+    border-radius: 1rem;
+    padding-top: 0;
+}
+
+.right h2 {
+    font-weight: 400;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.icons p {
+    margin: 0;
+    /* Remove default margin */
+    padding-left: 5px;
+    font-size: 10px;
+}
+
+.icons div {
+    display: flex;
+    /* Make the icon container a flex container */
+    align-items: center;
+    /* Align the icon vertically */
+}
+
+.icons {
+    margin-bottom: 1.2rem;
+}
+
+.icon-container {
+    align-items: center;
+    scale: 2;
+    border-radius: 50%;
+    color: white;
+}
+
+.contact-image {
+    object-fit: cover;
+    height: 20rem;
+    mix-blend-mode: multiply;
+    display: block;
+    margin: 0 auto;
+    /* Center the image */
+    max-width: 100%;
+    /* Ensure the image doesn't exceed its container */
+}

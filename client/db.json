@@ -1,0 +1,105 @@
+{
+  "buses": [
+    {
+      "srcname": "Chennai",
+      "destname": "Tirupati",
+      "bname": "APSRTC",
+      "deptime": "10:00",
+      "arrtime": "02:00",
+      "durtime": "04:00",
+      "tktprice": "320",
+      "btype": "Express",
+      "id": 1
+    },
+    {
+      "srcname": "Chennai",
+      "destname": "Tirupati",
+      "bname": "PSR Travels",
+      "deptime": "20:00",
+      "arrtime": "05:00",
+      "durtime": "09:00",
+      "tktprice": "800",
+      "btype": "AC",
+      "id": 2
+    }
+  ],
+  "users": [
+    {
+      "firstName": "Shreyan",
+      "lastName": "D",
+      "email": "dshreyan25@gmail.com",
+      "password": "shreyan123",
+      "confirmPassword": "shreyan123",
+      "id": 4
+    },
+    {
+      "firstName": "Mahesh",
+      "lastName": "B",
+      "email": "mahesh.b21@iiits.in",
+      "password": "mahesh",
+      "confirmPassword": "mahesh",
+      "id": 5
+    }
+  ],
+  "tours": [
+    {
+      "tourName": "Mumbai",
+      "tourPrice": "9000",
+      "imagePath": "/Mumbai.jpg",
+      "id": 1
+    },
+    {
+      "tourName": "Delhi",
+      "tourPrice": "10000",
+      "imagePath": "/delhi1.jpg",
+      "places": [
+        {
+          "title": "Indian Gate",
+          "description": "India Gate Is A War Memorial Located In New Delhi, Along The Rajpath. It Is Dedicated To The 82,000 Soldiers, Both Indian And British, Who Died During The First World War And The Third Anglo-Afghan War. India Gate Looks Stunning At Night With The Fountain Displaying Colourful Lights. The Surrounding Lush Green Lawns Are A Popular Picnic Spot. The Amar Jawan Jyoti Is Also Located Here.",
+          "imagePath": "/IndianGate.jpg"
+        },
+        {
+          "title": "Qutub Minar",
+          "description": "Qutub Minar Is A Minaret Or A Victory Tower Located In The Qutub Complex, A UNESCO World Heritage Site In Delhi's Mehrauli Area. With A Height Of 72.5 Metres (238 Ft), Qutub Minar Is The Second Tallest Monument Of Delhi. The Surrounding Qutub Complex Has Lush Green Lawns Which Are Popular Picnic Spot.",
+          "imagePath": "/QutuMinar.jpg"
+        },
+        {
+          "title": "Humayun's Tomb",
+          "description": "Humayun's Tomb Is The Final Resting Place Of The Mughal Emperor Humayun. Located In The Nizamuddin East Area Of Delhi, It Is The First Garden-Tomb In India. This UNESCO World Heritage Site Is Known For The Stunning Typical Mughal Architecture With Persian Influences.",
+          "imagePath": "/HumayunTomb.jpg"
+        },
+        {
+          "title": "Lotus Temple",
+          "description": "Located In The National Capital Of New Delhi, The Lotus Temple Is An Edifice Dedicated To The Baha'i Faith. The Magnificent Structure Of This Building Unfolds In The Form Of A Stupendous White Petal Lotus And Is One Of The Most Visited Establishments In The World.",
+          "imagePath": "/LotusTemple.jpg"
+        },
+        {
+          "title": "Red Fort",
+          "description": "The Red Fort Is A Historical Fort In The Old Delhi Area, On The Banks Of Yamuna. Shah Jahan Constructed It In 1639 As A Result Of A Capital Shift From Agra To Delhi. Built From Red Sandstone, It Is Home To Several Museums. Every Year, The Indian Prime Minister Unfurls The National Flag Here On The Independence Day.",
+          "imagePath": "/RedFort.jpg"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "tourName": "Hyderabad",
+      "tourPrice": "6000",
+      "imagePath": "/hyderabad.jpg",
+      "places": [],
+      "id": 3
+    },
+    {
+      "tourName": "Goa",
+      "tourPrice": "7000",
+      "imagePath": "/Goa.jpg",
+      "places": [
+        {
+          "title": "Red Fort",
+          "description": "The Red Fort Is A Historical Fort In The Old Delhi Area, On The Banks Of Yamuna. Shah Jahan Constructed It In 1639 As A Result Of A Capital Shift From Agra To Delhi. Built From Red Sandstone, It Is Home To Several Museums. Every Year, The Indian Prime Minister Unfurls The National Flag Here On The Independence Day.",
+          "imagePath": "/Bangalore.jpg"
+        }
+      ],
+      "id": 4
+    }
+  ]
+}

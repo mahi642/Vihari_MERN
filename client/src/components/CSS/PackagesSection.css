@@ -1,0 +1,21 @@
+.gallary-header h2 {
+    position: relative;
+    color: #565a5c;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 14px;
+}
+
+.gallary-header p {
+    position: relative;
+    color: #aaa;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 17px;
+}
+
+.gallery-container {
+    margin-top: -300px;
+}

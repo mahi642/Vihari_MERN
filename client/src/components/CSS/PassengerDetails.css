@@ -1,0 +1,28 @@
+/* Add this to your PassengerDetails.css file or style section */
+
+.custom-container {
+  box-shadow: 0px 0px 5px blue; /* Add box-shadow to the entire container */
+  /* padding: 20px; */
+  margin-top: 20px;
+}
+
+.form-group.passenger-details {
+  margin-bottom: 20px; /* Add some margin between form groups */
+  /* box-shadow: 2px 1px 4px grey; */
+  font-size: 25px;
+}
+
+.form-control.passenger-input{
+  width: 50%;
+  font-size: 15px;
+  margin-left: 180px;
+}
+
+.btn-primary.pay-now {
+  margin-top: 20px; /* Add some space between forms and the Pay Now button */
+  font-size: 15px;
+  width: 100%;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Optional: You can add more styling based on your design preferences */

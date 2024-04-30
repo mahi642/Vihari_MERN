@@ -1,0 +1,16 @@
+.Management{
+    box-shadow: 1px 1px 5px rgb(54, 11, 11);
+    padding: 3%;
+    margin-left:12%;
+    margin-right: 12%;
+    color: rgb(56, 138, 210);
+    text-align: start;
+}
+.Management h1{
+    color: #4629a3;
+    font-size: 30px;
+    margin-left: -2rem;
+}
+.Management p{
+    font-size: 10px;
+}

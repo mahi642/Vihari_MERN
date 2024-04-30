@@ -1,0 +1,58 @@
+/* AdminAnnouncementForm.css */
+.admin-announcement-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This ensures the container takes the full height of the viewport */
+}
+
+.admin-announcement-form {
+    width: 60%; /* Adjust the width as per your preference */
+    padding: 40px; /* Increase the padding */
+    background-color: #f2f2f2;
+    border-radius: 10px; /* Increase the border radius */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.form-title {
+    text-align: center;
+    margin-bottom: 30px; /* Increase the margin */
+    font-size: 24px; /* Increase the font size */
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 20px; /* Increase the margin */
+    color: #333;
+    font-size: 18px; /* Increase the font size */
+}
+
+.form-input,
+.form-textarea {
+    width: 100%;
+    padding: 15px; /* Increase the padding */
+    border: none;
+    border-radius: 5px; /* Increase the border radius */
+    background-color: #fff;
+    box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 16px; /* Increase the font size */
+}
+
+.form-button {
+    display: block;
+    width: 100%;
+    padding: 15px; /* Increase the padding */
+    margin-top: 30px; /* Increase the margin */
+    border: none;
+    border-radius: 5px; /* Increase the border radius */
+    background-color: #007bff;
+    color: #fff;
+    font-size: 18px; /* Increase the font size */
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+    background-color: #0056b3;
+}

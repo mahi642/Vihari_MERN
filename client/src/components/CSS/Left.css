@@ -1,0 +1,49 @@
+.left {
+    padding: 20px;
+    background-color: rgb(160, 216, 225);
+    border-radius: 1rem;
+    text-align: left;
+    box-sizing: border-box;
+    padding-left: 4rem;
+}
+
+.left p {
+    margin-left: -1rem;
+    font-size: large;
+    font-weight: 500;
+}
+
+.left-form input {
+    padding: 1rem;
+    width: 40%;
+    display: block;
+    margin-bottom: 2.5rem;
+    background-color: rgb(248 252 253);
+    border: 0;
+    border-radius: 0.75rem;
+    font-size: 15px;
+}
+
+.left-form {
+    flex-direction: column-reverse;
+}
+
+.left-form textarea {
+    width: 90%;
+    height: 7rem;
+    background-color: rgb(248 252 253);
+    border: none;
+    padding: 0.5em;
+    border-radius: 0.75rem;
+    font-size: 15px;
+}
+
+.left-form button {
+    background-color: #29d9d5;
+    padding: 1rem;
+    width: 8rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    border: 0;
+    font-size: 15px;
+}
