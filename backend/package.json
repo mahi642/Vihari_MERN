@@ -2,11 +2,11 @@
   "name": "vihari-backend",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "start": "nodemon app.js",
+    "start": "nodemon index.js",
     "server": "node backend/server.js",
-    "build":"node app.js",
+    "build":"node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
